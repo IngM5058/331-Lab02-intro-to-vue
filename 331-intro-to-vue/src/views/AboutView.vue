@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import EventCard from '@/components/EventCard.vue'
+import EventCard from '@/components/StudentCard.vue'
 import Event from '@/types/Student'
 import { ref, onMounted } from 'vue'
 import EventService from '@/services/AnotherEventService'
@@ -25,7 +25,6 @@ onMounted(() => {
   align-items: center;
 }
 </style>
-
 
 <template>
   <div class="about">
