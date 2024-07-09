@@ -27,8 +27,8 @@ onMounted(() => {
 </style>
 
 <template>
-  <div class="about">
-    <h1>16.3</h1>
+  <div class="student">
+    <h1>Students Info</h1>
     <!-- new element -->
     <div class="events"></div>
     <EventCard v-for="event in events" :key="event.id" :event="event" />
@@ -36,11 +36,11 @@ onMounted(() => {
 </template>
 
 <style>
-/* @media (min-width: 1024px) {
-  .about {
+@media (min-width: 1024px) {
+  .student {
     min-height: 100vh;
     display: flex;
     align-items: center;
   }
-} */
+}
 </style>

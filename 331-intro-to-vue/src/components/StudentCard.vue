@@ -23,13 +23,17 @@
     <div class="event-card">
       <h2>{{ event.studentId}}</h2>
       <p>{{ event.name }} {{ event.surname }}</p>
-      <p></p>
       <span>GPA: {{ event.gpa }}</span>
     </div>
   </div>
 </template>
 
 <style scoped>
+  .event-class{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .event-card {
     padding: 20px;
     width: 250px;

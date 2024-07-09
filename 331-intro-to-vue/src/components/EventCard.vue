@@ -29,6 +29,12 @@
 </template>
 
 <style scoped>
+  .event-class{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
   .event-card {
     padding: 20px;
     width: 250px;
