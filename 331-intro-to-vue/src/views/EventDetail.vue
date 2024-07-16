@@ -2,7 +2,7 @@
 import { ref } from 'vue'
 import type { Ref } from 'vue'
 import type { EventItem } from '@/type'
-const event: Ref<EventItem | null> = ref(null)
+const event = ref<EventItem | null> = ref(null)
 
 </script>
 
