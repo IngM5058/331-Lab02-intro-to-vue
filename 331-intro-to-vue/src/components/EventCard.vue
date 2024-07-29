@@ -35,6 +35,11 @@
 </template>
 
 <style scoped>
+  .event-link{
+    text-decoration: none;
+    color: #2c3e50;
+    align-items: center;
+  }
   .event-class{
     display: flex;
     flex-direction: column;
@@ -47,6 +52,7 @@
     cursor: pointer;
     border: 1px solid #39495c;
     margin-bottom: 18px;
+    align-items: center;
   }
 
   .event-card:hover {
