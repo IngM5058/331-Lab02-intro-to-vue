@@ -21,9 +21,17 @@ onMounted(() => {
 </script>
 
 <template>
-  <div v-if="event">
+  <div class="events" v-if="event">
     <h1>{{ event.title }}</h1>
     <p>{{ event.time }} on {{ event.date }} on {{ event.location }}</p>
     <p>{{ event.description }}</p>
   </div>
 </template>
+
+<style>
+.events {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+</style>

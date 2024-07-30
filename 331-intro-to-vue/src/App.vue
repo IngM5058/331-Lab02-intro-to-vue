@@ -5,8 +5,6 @@ import { RouterLink, RouterView } from 'vue-router'
 <template>
   <div id="layout">
     <header>
-      <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-
       <div class="wrapper">
         <nav>
           <RouterLink to="/">Event</RouterLink>
@@ -88,5 +86,11 @@ nav a:first-of-type {
     padding: 1rem 0;
     margin-top: 1rem;
   }
+}
+
+.wrapper .nav{
+  justify-content: center !important;
+  display: flex;
+  flex-direction: column;
 }
 </style>
