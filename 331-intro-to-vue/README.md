@@ -1,4 +1,4 @@
-# 331-intro-to-vue
+# 331-intro-to-vite
 
 This template should help get you started developing with Vue 3 in Vite.
 
